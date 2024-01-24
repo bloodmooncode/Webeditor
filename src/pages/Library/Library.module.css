@@ -1,0 +1,78 @@
+/* library page */
+.library {
+    overflow: hidden;
+    position: relative;
+}
+
+/* list header */
+.title {
+    height: 70px;
+    display: grid;
+    grid-template-columns: 40px auto;
+    align-items: center;
+    column-gap: 10px;
+}
+
+.title img {
+    width: 30px;
+    height: 30px;
+    margin-left: 5px;
+}
+
+/* list item */
+.listScroller {
+    height: 100%;
+    overflow-y: scroll;
+}
+
+.listScroller::-webkit-scrollbar {
+    display: none;
+}
+
+.design {
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.design:hover {
+    background-color: #EEEEEE;
+}
+
+.filename {
+    font-size: 14px;
+    color: #444444;
+    margin-left: 10px;
+    font-family: 'SimHei';
+}
+
+.editTime {
+    font-size: 14px;
+    color: #999999;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: right;
+    margin-right: 10px;
+}
+
+/* list footer */
+.listFooter {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 0;
+}
+
+/* list loading */
+.listLoading {
+    min-height: 100px;
+    height: 100%;
+    width: 100%;
+    /* background-color: rgba(0, 0, 0, 0.1); */
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+
+.listLoading img {
+    height: 40px;
+    width: 40px;
+}

@@ -1,0 +1,22 @@
+#editor {
+    /* border: solid 1px #000000; */
+    display: grid;
+    grid-template-columns: 200px auto 200px;
+}
+
+#left {
+    background-color: #F7F7F7;
+    border-right: solid 2px #EEEEEE;
+    /* display: grid; */
+    /* grid-template-rows: 20% auto; */
+}
+
+#middle {
+    display: grid;
+    grid-template-rows: 42px auto 28px;
+}
+
+#right {
+    background-color: #F7F7F7;
+    border-left: solid 2px #EEEEEE;
+}
